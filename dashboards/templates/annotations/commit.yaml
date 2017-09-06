@@ -1,7 +1,7 @@
 
 template: annotation_base.j2
 
-query: SELECT * FROM events WHERE event = 'UI_COMMIT_COMPLETED' AND $timeFilter
+query: SELECT * FROM events WHERE event = 'UI_COMMIT_PROGRESS' AND $timeFilter
 icon_color: "#C0C6BE"
 icon_size: 13
 name: Commit

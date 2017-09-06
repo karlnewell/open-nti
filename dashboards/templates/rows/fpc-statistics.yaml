@@ -1,0 +1,7 @@
+
+title: FPC Statistics
+height: 250px
+template: row_base.j2
+panels:
+  graphs:
+    - fpc-cpu-used.yaml

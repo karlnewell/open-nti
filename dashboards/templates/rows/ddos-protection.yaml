@@ -1,0 +1,10 @@
+
+title: DDoS Protection Statistics
+height: 250px
+template: row_base.j2
+panels:
+  graphs:
+    - ddos-protection-packets-dropped.yaml
+    - ddos-protection-packets-received.yaml
+    - ddos-protection-packet-rate.yaml
+    - ddos-protection-policer-violation-count.yaml

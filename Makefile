@@ -4,6 +4,8 @@
 BRANCH ?= $(shell git rev-parse --abbrev-ref HEAD)
 ifeq ($(BRANCH),master)
   IMAGE_TAG = latest
+else ifeq ($(BRANCH),ddos-protection)
+  IMAGE_TAG = latest
 else
   IMAGE_TAG = $(BRANCH)
 endif

@@ -7,17 +7,21 @@ generic_commands:
    commands: |
       show isis statistics | display xml
       show chassis routing-engine | display xml
+      show chassis fpc | display xml
       show pfe statistics traffic | display xml
       show system processes extensive
       show system buffers
       show system statistics icmp | display xml
       show route summary | display xml
-   tags: generic
+   tags: generic lab
 
 lab_commands:
    commands: |
-      show route summary | display xml
-   tags: test
+      show ddos-protection protocols sample statistics brief | display xml
+      show ddos-protection protocols bgp statistics brief | display xml
+      show ddos-protection protocols tcp-flags statistics brief | display xml
+      show ddos-protection protocols ssh statistics brief | display xml
+   tags: lab
 
 # Commands to query vmx-docker-lwaftr Container running vMX for lightweight 4 over 6.
 # Note: The space in 'statisti s' is required until PR-1236994 is fixed in Junos.

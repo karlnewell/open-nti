@@ -1,0 +1,19 @@
+
+title: Data Collection DDoS Protection Dashboard
+template: "dashboard_base.j2"
+
+tags:
+  - juniper
+  - netconf
+  - opennti
+  - ddos
+
+templatings:
+  - host_regex.yaml
+  - group_by.yaml
+
+annotations:
+  - commit.yaml
+
+rows:
+  - ddos-protection.yaml

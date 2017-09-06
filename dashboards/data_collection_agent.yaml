@@ -17,6 +17,7 @@ annotations:
 rows:
   - opennti-disclaimer.yaml
   - re-statistics.yaml
+  - fpc-statistics.yaml
   - route-inet0.yaml
   - re-processes.yaml
   - protocol-isis.yaml

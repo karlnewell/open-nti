@@ -1,0 +1,5 @@
+
+template: templating_base.j2
+
+name: ddos_group
+query: SHOW TAG VALUES FROM /.ddos-protection./ WITH KEY = "group"
